@@ -12,8 +12,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  cupertino_icons: ^1.0.3
+  #Location Plugin
+  location: ^4.3.0
+  #Geocoding utils
+  geocoder: ^0.2.1
+  # XML Parser and facilities
+  xml: ^5.1.2
+  # Internationalization and localization facilities
+  intl: ^0.17.0
+  #Google maps plugin
+  google_maps_flutter: ^2.0.6
+  #Location Helpers and Utils
+  maps_toolkit: ^2.0.0
+  #SharedPreference Helper
+  shared_preferences: ^2.0.6
+  #SVG Resources
+  flutter_svg: ^0.22.0
+  # Service locator
+  get_it: ^7.1.3
+  # Bloc for state management
+  flutter_bloc: ^7.0.1
+  # Value equality
+  equatable: ^2.0.2
 
 dev_dependencies:
   flutter_test:
@@ -23,17 +43,8 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware.
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
+  assets:
+    - assets/
 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
